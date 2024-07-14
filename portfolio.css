@@ -1,0 +1,67 @@
+html,body {
+  inset: 0;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio {
+  transition: 2s all;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.info .name {
+  position: relative;
+  left: 150px;
+  top: 195px;
+  z-index: 2;
+  color: yellowgreen;
+}
+
+.info .discription {
+  position: relative;
+  top: 205px;
+  left: 80px;
+  color: yellow;
+}
+
+.img .timur {
+  display: flex;
+  height: 120px;
+  width: 90px;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 140px;
+}
+
+.background {
+  position: absolute;
+  position: relative;
+  left: 50px;
+  width: 250px;
+  height: 400px;
+  background: gray;
+  border: 1px;
+  border-color: aliceblue;
+  border-radius: 10px;
+}
+
+.abg {
+  position: absolute;
+}
+
+header {
+  display: none;
+}
